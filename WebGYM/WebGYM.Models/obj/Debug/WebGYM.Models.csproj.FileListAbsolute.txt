@@ -1,0 +1,10 @@
+F:\Pracjuly2020\Gym\Angular-7-Project-with-ASP.NET-CORE-APIS-master\Angular-7-Project-with-ASP.NET-CORE-APIS-master\WebGYM\WebGYM.Models\bin\Debug\WebGYM.Models.dll
+F:\Pracjuly2020\Gym\Angular-7-Project-with-ASP.NET-CORE-APIS-master\Angular-7-Project-with-ASP.NET-CORE-APIS-master\WebGYM\WebGYM.Models\bin\Debug\WebGYM.Models.pdb
+F:\Pracjuly2020\Gym\Angular-7-Project-with-ASP.NET-CORE-APIS-master\Angular-7-Project-with-ASP.NET-CORE-APIS-master\WebGYM\WebGYM.Models\obj\Debug\WebGYM.Models.dll
+F:\Pracjuly2020\Gym\Angular-7-Project-with-ASP.NET-CORE-APIS-master\Angular-7-Project-with-ASP.NET-CORE-APIS-master\WebGYM\WebGYM.Models\obj\Debug\WebGYM.Models.pdb
+F:\Pracjuly2020\Gym\AngularcoreZim\WebGymAngular\WebGYM\WebGYM.Models\bin\Debug\WebGYM.Models.dll
+F:\Pracjuly2020\Gym\AngularcoreZim\WebGymAngular\WebGYM\WebGYM.Models\bin\Debug\WebGYM.Models.pdb
+F:\Pracjuly2020\Gym\AngularcoreZim\WebGymAngular\WebGYM\WebGYM.Models\bin\Debug\System.ComponentModel.Annotations.dll
+F:\Pracjuly2020\Gym\AngularcoreZim\WebGymAngular\WebGYM\WebGYM.Models\obj\Debug\WebGYM.Models.csproj.CopyComplete
+F:\Pracjuly2020\Gym\AngularcoreZim\WebGymAngular\WebGYM\WebGYM.Models\obj\Debug\WebGYM.Models.dll
+F:\Pracjuly2020\Gym\AngularcoreZim\WebGymAngular\WebGYM\WebGYM.Models\obj\Debug\WebGYM.Models.pdb

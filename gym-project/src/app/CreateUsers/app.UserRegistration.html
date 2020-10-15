@@ -1,0 +1,70 @@
+<h4>Add Medicine</h4>
+<hr>
+<div class="panel panel-default">
+    <div class="panel-heading">Add New Medicine</div>
+    <div class="panel-body">
+        <form #f="ngForm" novalidate (ngSubmit)="onSubmit()">
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="name">Medicine Name</label>
+                    <input type="text" class="form-control" name="UserName" [(ngModel)]="UserModel.UserName" maxlength="50"
+                        #refUserName="ngModel" id="UserName" required>
+                    <div *ngIf="!refUserName.valid  && (refUserName.dirty || refUserName.touched)" class="alert alert-danger">
+                        <div [hidden]="!refUserName.errors.required">
+                            Medicine Name is required
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="name">Brand</label>
+                    <input type="text" class="form-control" name="FullName" maxlength="50" [(ngModel)]="UserModel.FullName" maxlength="50"
+                        #refFullName="ngModel" id="FullName" required>
+                    <div *ngIf="!refFullName.valid  && (refFullName.dirty || refFullName.touched)" class="alert alert-danger">
+                        <div [hidden]="!refFullName.errors.required">
+                            Brand Name  is required
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="name">Price</label>
+                    <input type="text" class="form-control" maxlength="50" name="EmailId" [(ngModel)]="UserModel.EmailId" maxlength="50"
+                        #refEmailId="ngModel" id="EmailId" required>
+                    <div *ngIf="!refEmailId.valid  && (refEmailId.dirty || refEmailId.touched)" class="alert alert-danger">
+                        <div [hidden]="!refEmailId.errors.required">
+                            Price is required
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="name">Quantatity/Number</label>
+                    <input type="text" class="form-control" name="Contactno" [(ngModel)]="UserModel.Contactno"
+                        maxlength="10" #refContactno="ngModel" id="Contactno" required>
+                    <div *ngIf="!refContactno.valid  && (refContactno.dirty || refContactno.touched)" class="alert alert-danger">
+                        <div [hidden]="!refContactno.errors.required">
+                            Quantantity is required
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="name">Note</label>
+                    <input type="text" class="form-control" name="Password" [(ngModel)]="UserModel.Password"
+                        maxlength="50" #refPassword="ngModel" id="Password" required>
+                    <div *ngIf="!refPassword.valid  && (refPassword.dirty || refPassword.touched)" class="alert alert-danger">
+                        <div [hidden]="!refPassword.errors.required">
+                            Note is required
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <button type="submit" style="margin-top: 10px" [disabled]="!f.form.valid" class="btn btn-success">Submit</button>
+                    <a style="margin-left: 10px; margin-top:7px;" class="btn btn-info" [routerLink]="['/User/All']">
+                        All Medicine Details </a>
+                </div>
+
+            </div>
+        </form>
+
+    </div>
+</div>
